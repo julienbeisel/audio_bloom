@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "audio-bloom"
+version = "0.1.0"
+description = "Audio analysis"
+authors = ["Julien BEISEL"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "audio_bloom"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
